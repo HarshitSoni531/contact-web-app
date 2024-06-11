@@ -9,7 +9,7 @@ import {
   query,
   updateDoc,
 } from "firebase/firestore";
-import { db } from "../config/firebase";
+import db from "../config/firebase";
 import toast from "react-hot-toast";
 import * as Yup from "yup";
 
